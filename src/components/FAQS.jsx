@@ -83,7 +83,7 @@ const FAQS = () => {
           {Faqs.map((faq) => (
             <div
               key={faq.id}
-              className="flex w-[60rem] flex-col gap-2 py-4 px-4 bg-gray-200 rounded-xl"
+              className="flex w-full sm:w-[60rem] flex-col gap-2 py-4 px-4 bg-gray-200 rounded-xl"
             >
               <div className="flex gap-2 text-xl font-semibold">
                 {visibleFaq === faq.id ? (

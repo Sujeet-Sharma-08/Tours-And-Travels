@@ -101,9 +101,9 @@ const PopularAttraction = () => {
             </div>
           </div>
         </div>
-        <div className=" visit  w-[21rem]  text-center ml-[32rem] mt-5  hover:scale-110 transition-all duration-300">
+        <div className=" visit w-full sm:w-[21rem] text-center sm:ml-[32rem] mt-5 hover:scale-110 transition-all duration-300">
           {" "}
-          <button className="text-[1.5rem]    rounded-xl    font-bold text-black py-3 px-10 ">
+          <button className="text-[1.5rem] rounded-xl font-bold text-black py-3 px-10 ">
             See All Places To Visit
           </button>
         </div>

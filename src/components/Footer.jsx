@@ -124,31 +124,31 @@ const Footer = () => {
           <hr className="" />
         </div>
         <div className="flex justify-center -mt-32 gap-10 mb-10">
-          <div className="flex justify-center items-center h-10 w-10 rounded-full bg-gray-200">
-            <a href="">
+          <div className="flex justify-center hover:scale-105 transition-all duration-300 items-center h-10 w-10 rounded-full bg-gray-200">
+            <a  href="">
               <FaFacebookF size={25} />
             </a>
           </div>
 
-          <div className="flex justify-center items-center h-10 w-10 rounded-full bg-gray-300">
+          <div className="flex justify-center hover:scale-105 transition-all duration-300 items-center h-10 w-10 rounded-full bg-gray-300">
             <a href="">
               <FaInstagram size={25} />
             </a>
           </div>
 
-          <div className="flex justify-center items-center h-10 w-10 rounded-full bg-gray-300">
+          <div className="flex justify-center items-center hover:scale-105 transition-all duration-300 h-10 w-10 rounded-full bg-gray-300">
             <a href="">
               <FaTwitter size={25} />
             </a>
           </div>
 
-          <div className="flex justify-center items-center h-10 w-10 rounded-full bg-gray-300">
+          <div className="flex justify-center items-center hover:scale-105 transition-all duration-300 h-10 w-10 rounded-full bg-gray-300">
             <a href="">
               <FaLinkedin size={25} />
             </a>
           </div>
 
-          <div className="flex justify-center items-center h-10 w-10 rounded-full bg-gray-300">
+          <div className="flex justify-center items-center hover:scale-105 transition-all duration-300 h-10 w-10 rounded-full bg-gray-300">
             <a href="">
               <FaYoutube size={25} />
             </a>

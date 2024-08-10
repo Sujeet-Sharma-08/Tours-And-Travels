@@ -38,7 +38,7 @@ const Consultation = () => {
       <div className="flex relative flex-col w-full bg-[#e3d1a4] py-10">
         <form className="flex flex-col gap-5 ml-40" onSubmit={submitHandler}>
           <input
-            className="py-5 text-xl border-2 border-orange-600 w-[30rem] bg-transparent outline-none px-5 rounded-xl"
+            className="py-5 text-xl border-2 border-orange-600 w-full lg:w-[30rem] bg-transparent outline-none px-5 rounded-xl"
             type="text"
             name="name"
             required
@@ -55,7 +55,7 @@ const Consultation = () => {
               placeholder="+91"
             />
             <input
-              className="py-5 text-xl border-2 border-orange-600 w-[24rem] bg-transparent outline-none px-5 rounded-xl"
+              className="py-5 text-xl border-2 border-orange-600 w-full lg:w-[24rem] bg-transparent outline-none px-5 rounded-xl"
               type="text"
               required
               name="number"
@@ -65,7 +65,7 @@ const Consultation = () => {
             />
           </div>
           <input
-            className="py-5 text-xl border-2 border-orange-600 w-[30rem] bg-transparent outline-none px-5 rounded-xl"
+            className="py-5 text-xl border-2 border-orange-600 w-full lg:w-[30rem] bg-transparent outline-none px-5 rounded-xl"
             type="text"
             name="email"
             value={formData.email}
@@ -73,13 +73,13 @@ const Consultation = () => {
             placeholder="Enter your Email"
           />
           <div className="flex">
-            <button className="py-5 text-xl font-semibold px-6 w-[30rem] bg-orange-600 text-white rounded-xl mt-5">
+            <button className="py-5 text-xl font-semibold px-6 w-full lg:w-[30rem] bg-orange-600 text-white rounded-xl mt-5">
               Callback  <FaArrowRight className="ml-[16.2rem] text-3xl -mt-[1.6rem]"  />
             </button>
            
           </div>
         </form>
-        <div className="absolute w-[24rem] -mt-[4.8rem] flex ml-[66rem]">
+        <div className="absolute w-[24rem] -mt-[4.8rem] flex sm:ml-[66rem]">
           <img src={Rectangle56} alt="Consultation Illustration" />
         </div>
       </div>

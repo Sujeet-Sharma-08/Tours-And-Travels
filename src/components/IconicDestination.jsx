@@ -30,7 +30,7 @@ const IconicDestination = () => {
               Lorem ipsum dolor sit amet consectetur. Proin neque vitae netus
               vitae volutpat duis.
             </p>
-            <div className="flex justify-center text-[1.2rem] items-center w-[24rem] ml-40 mt-5 h-10 gap-4 border border-t-2 border-black rounded-3xl">
+            <div className="flex justify-center text-[1.2rem] items-center w-[24rem] sm:ml-40 mt-5 h-10 gap-4 border border-t-2 border-black rounded-3xl">
               <p className="border-r-2 border-black">
                 <strong>2D</strong>Udaipur
               </p>
@@ -50,7 +50,7 @@ const IconicDestination = () => {
               </div>
             </div>
 
-            <button className="py-3 ml-48 mt-5 px-14 bg-[#ff8818] rounded-2xl border border-black text-white text-2xl font-semibold hover:scale-110 transition-all duration-300">
+            <button className="py-3 sm:ml-48 mt-5 px-14 bg-[#ff8818] rounded-2xl border border-black text-white text-2xl font-semibold hover:scale-110 transition-all duration-300">
               Request a Callback
             </button>
           </div>
@@ -69,7 +69,7 @@ const IconicDestination = () => {
               Lorem ipsum dolor sit amet consectetur. Proin neque vitae netus
               vitae volutpat duis.
             </p>
-            <div className="flex justify-center text-[1.2rem] items-center w-[24rem] ml-40 mt-5 h-10 gap-4 border border-t-2 border-black rounded-3xl">
+            <div className="flex justify-center text-[1.2rem] items-center w-[24rem] sm:ml-40 mt-5 h-10 gap-4 border border-t-2 border-black rounded-3xl">
               <p className="border-r-2 border-black">
                 <strong>2D</strong>Udaipur
               </p>
@@ -87,7 +87,7 @@ const IconicDestination = () => {
                 <p className="text-black text-lg  mt-1"> 4.9</p>
               </div>
             </div>
-            <button className="py-3 ml-48 mt-5 px-14 bg-[#ff8818] rounded-2xl border border-black text-white text-2xl font-semibold hover:scale-110 transition-all duration-300">
+            <button className="py-3 sm:ml-48 mt-5 px-14 bg-[#ff8818] rounded-2xl border border-black text-white text-2xl font-semibold hover:scale-110 transition-all duration-300">
               Request a Callback
             </button>
           </div>
@@ -106,7 +106,7 @@ const IconicDestination = () => {
               Lorem ipsum dolor sit amet consectetur. Proin neque vitae netus
               vitae volutpat duis.
             </p>
-            <div className="flex justify-center text-[1.2rem] items-center w-[24rem] ml-40 mt-5 h-10 gap-4 border border-t-2 border-black rounded-3xl">
+            <div className="flex justify-center text-[1.2rem] items-center w-[24rem] sm:ml-40 mt-5 h-10 gap-4 border border-t-2 border-black rounded-3xl">
               <p className="border-r-2 border-black">
                 <strong>2D</strong>Udaipur
               </p>
@@ -124,7 +124,7 @@ const IconicDestination = () => {
                 <p className="text-black text-lg  mt-1"> 4.9</p>
               </div>
             </div>
-            <button className="py-3 ml-48 mt-5 px-14 bg-[#ff8818] rounded-2xl border border-black text-white text-2xl font-semibold hover:scale-110 transition-all duration-300">
+            <button className="py-3 sm:ml-48 mt-5 px-14 bg-[#ff8818] rounded-2xl border border-black text-white text-2xl font-semibold hover:scale-110 transition-all duration-300">
               Request a Callback
             </button>
           </div>
